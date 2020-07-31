@@ -62,8 +62,8 @@ def main(dict):
 
 def sendQuery(id0):
 
-    username_cloudant = "3c30e71f-1f5a-4498-af74-06860a23e042-bluemix"
-    apikey_cloudant = "t7Lf7KxBAiqFOq6T_EW1dCQC1l1bZCP98q1YnBHxJUn4"
+    username_cloudant = ""                      #   "INPUT YOUR CLOUDANT CREDENTIALS"
+    apikey_cloudant =   ""                      #   "INPUT YOUR CLOUDANT CREDENTIALS"
     client = Cloudant.iam(username_cloudant, apikey_cloudant)
     client.connect()
 
