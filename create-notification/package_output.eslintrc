@@ -1,0 +1,34 @@
+// {
+//     "timestamp": "2020-06-11T10:00:00Z",
+//     "id": "random id",                  // id related to notification, same as in rsik calcuation/ display
+//     "causes": "reason",                 // reason for this notification
+//     "variables": {
+//         "object00": "",                 // # doors, knbs, basket, screen, panels
+//         "area00": "",                   // area values from "belongs" in asset DB
+//         "people00": ""                  // people count, or subjective expression : "A lot"               
+//     },
+//     "code": {
+//         "target": "toStaff",             // # forCustomers,toStaff, toManager
+//         "kind": "area",                  // staff,area,toilet,garbage
+//         "number": "01"                   // # 00, 01,02,03,04,05,06 {String format}
+
+//     }
+// }
+
+{
+    "timestamp": "2020-06-11T10:00:00Z",
+    "id": "random id",                  
+    "causes": "reason",
+    "variables": {
+        "object00": "",
+        "area00": "",
+        "people00": ""               
+    },
+    "code": {
+        "target": "toStaff",
+        "kind": "area",                
+        "number": "01"
+    }
+}
+
+

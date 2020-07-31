@@ -1,0 +1,38 @@
+// Prepare Pushes
+
+{
+    "bookmark": "g2wAAAACaAJkAA5zdGFydGtleV9kb2NpZG0AAAAgZjJmMzA1ZTExZmRhMmUxOWE4NGE5ZjQ3OGY5MzAxYTZoAmQACHN0YXJ0a2V5bAAAAAFtAAAAFDIwMjAtMDctMjlUMDY6NTA6NDFaamo",
+    "docs": [{
+        "_id": "fe4c24dd04daba1f424af7af5e8f607c",
+        "_rev": "1-9aa53b98a484072629f29a5f8af1a76a",
+        "causes": "rise in work/area risk, risk is high",
+        "code": {
+            "kind": "staff",
+            "number": "03",
+            "target": "toStaff"
+        },
+        "id": "st0006",
+        "severity": "high",
+        "timestamp": "2020-07-29T07:00:57Z",
+        "variables": {
+            "peopleC": 0,
+            "riskType": "st"
+        }
+    }, {
+        "_id": "f2f305e11fda2e19a84a9f478f9301a6",
+        "_rev": "1-3027072a59aaff2ecd820b9cd69690f5",
+        "causes": "rise in work/area risk, risk is high",
+        "code": {
+            "kind": "staff",
+            "number": "03",
+            "target": "toStaff"
+        },
+        "id": "st0006",
+        "severity": "high",
+        "timestamp": "2020-07-29T06:50:41Z",
+        "variables": {
+            "peopleC": 0,
+            "riskType": "st"
+        }
+    }]
+}
