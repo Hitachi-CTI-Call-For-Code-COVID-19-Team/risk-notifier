@@ -1,11 +1,19 @@
 # Generate Risk Notifcation
 
-Risk notification package consits of one sequence named <code>riskNotificationFlow</code>. For deploying please follow these steps:
+Risk notification package consits of one sequence named <code>riskNotificationFlow</code>. 
+
+
+[![risk-notifier](/images/risk-notifier.png)](/images/risk-notifier.pdf)
+
+
+For deploying please follow these steps:
 
 - target/create namespace
 - create required cloudant-bindings
 - deploying the Risk Notifier actions/sequences
 - deploying trigger 
+
+
 
 ## Implementation steps
 *Pre-requisite*:
