@@ -26,6 +26,9 @@ For implementation, copy the repository and follow steps in indvidual directorie
 
     You can gets your Cloudant credentials by [delivery scripts](delivery/scripts/.credentials) or as obtained in (Cloudant-binding) steps [here](risk-calculator/README.md).
 
+## Related:
+- [Risk Calculator](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/risk-calculator.git)
+- [Push Notification](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/push-notifications.git)
 -----
 
 ##### [License](./LICENSE.txt)
