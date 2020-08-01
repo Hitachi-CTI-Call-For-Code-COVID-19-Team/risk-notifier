@@ -10,7 +10,21 @@ Risk-notifier reads the data from **log_risk_calculation** database and generate
 
 Based on new entries in risk notification database, notfications are prepared for device push( Mesh led sensor and smartphone notifications).
 
-For implementation, please check indvidual directories.
+For implementation, copy the repository and follow steps in indvidual directories.
+
+- Clone the risk-notifier repository.
+
+    ```sh
+    git clone https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/risk-notifier.git
+    ```
+
+    **REQUIRED SETTING:**
+
+    - Set Cloudant credentials in actions: 
+    
+        Input you cloudant credentials [here](/create-notification/runtimes/actions/riskNotificationFlow/prepareRelatedData_ReadAsset.py) and [here](push-notification/runtimes/actions/preparePushes.py).
+
+    You can gets your Cloudant credentials by [delivery scripts](delivery/scripts/.credentials) or as obtained in (Cloudant-binding) steps [here](risk-calculator/README.md).
 
 -----
 

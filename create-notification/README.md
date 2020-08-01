@@ -27,13 +27,6 @@ This is a repeat of deployment of risk calculation package, [please check it for
 
 Use the CLI to deploy the Risk Notifier template.
 
-- Clone the risk-notifier template repo.
-
-    ```sh
-    git clone https://gitlab.rdcloud.intra.hitachi.co.jp/call-for-code-2020/covid-19/cloud-functons/risk-notifier.git
-
-    ```
-
 - Deploy the template. You must include a package name to contain your action. Replace <name> with a custom name for your package.
 
     ```sh
