@@ -6,7 +6,7 @@ It has two parts:
 - [generate risk notifications](/create-notification/README.md) 
 - [push notifiations to devices](/push-notification/readme.md)
 
-Risk-notifier reads the data from <code> log_risk_calculation </code? database and generates parameteric values for creating notifications based on the latest entries in the risk-calculation database. Then it writes generated notifications to risk notification database <code>log_risk_notification</code>.
+Risk-notifier reads the data from <code> log_risk_calculation </code> database and generates parameteric values for creating notifications based on the latest entries in the risk-calculation database. Then it writes generated notifications to risk notification database <code>log_risk_notification</code>.
 
 Based on new entries in risk notification database, notfications are prepared for device push( [Mesh-device led/sensor](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/indicator.git) and [smartphone notifications](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/push-notifications.git).
 
