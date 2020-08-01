@@ -2,6 +2,10 @@
 
 This repository consits of functions related to package push-notifications that prepares (only) individual staff related device-notifications and pushes to individual user devices.
 
+[![push-notification-flow-towards-device](./images/push-notifications.png)](./images/push-notifications.pdf)
+
+To implement this package, follow the steps below:
+
 - target/create namespace
 - create required cloudant-bindings
 - deploying the Push Notification actions/sequences
