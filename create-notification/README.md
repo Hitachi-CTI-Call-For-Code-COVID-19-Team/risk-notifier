@@ -4,7 +4,6 @@ Risk notification package consits of one sequence named <code>riskNotificationFl
 
 
 ![risk-notifier](/images/risk-notifier.png)
-[](/images/risk-notifier.pdf)
 
 
 For deploying please follow these steps:
