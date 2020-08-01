@@ -39,4 +39,5 @@ def main(dict):
     if isEmpty:
         return {"error": "Forced Stop, missing values in notification output"}
 
-    return {'doc': dict["write_value"]}
+    return {'doc': dict["write_value"],
+            "dbname": "log_risk_notifier"}

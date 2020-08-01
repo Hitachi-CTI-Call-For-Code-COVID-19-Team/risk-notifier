@@ -18,14 +18,7 @@ To implement this package, follow the steps below:
 - [Setting up](https://cloud.ibm.com/docs/cli?topic=cli-getting-started) CLI environment.
 - Deployment of [risk-calulation package](risk-calculator)
 
-Steps to implement risk-calulator are mentioned as follows:
-
-- target/create namespace
-- create required cloudant-bindings
-- deploying the actions/sequences
-- deploying trigger 
-
-This is a repeat of deployment of risk calculation package, [please check it for target namespace and cloudant binding](risk-calculator).
+This is a repeat of deployment of risk calculation package, [please check it for target namespace and cloudant binding](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/risk-calculator.git).
 
 ## Deploying the push-notification  from the CLI
 

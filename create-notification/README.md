@@ -1,19 +1,15 @@
 # Generate Risk Notifcation
 
-Risk notification package consits of one sequence named <code>riskNotificationFlow</code>. 
-
+Risk notification package consits of one sequence named <code>riskNotificationFlow</code>.
 
 [![risk-notifier](./images/risk-notifier.png)](./images/risk-notifier.pdf)
-
-
 
 For deploying please follow these steps:
 
 - target/create namespace
 - create required cloudant-bindings
 - deploying the Risk Notifier actions/sequences
-- deploying trigger 
-
+- deploying trigger
 
 
 ## Implementation steps
@@ -21,16 +17,9 @@ For deploying please follow these steps:
 
 - Install [IBM cloud CLI](https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-cli_install)
 - [Setting up](https://cloud.ibm.com/docs/cli?topic=cli-getting-started) CLI environment.
-- Deployment of [risk-calulation package](risk-calculator)
+- Deployment of [risk-calulation package](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/risk-calculator.git)
 
-Steps to implement risk-calulator are mentioned as follows:
-
-- target/create namespace
-- create required cloudant-bindings
-- deploying the actions/sequences
-- deploying trigger 
-
-This is a repeat of deployment of risk calculation package, [please check it for target namespace and cloudant binding](risk-calculator).
+This is a repeat of deployment of risk calculation package, [please check it for target namespace and cloudant binding](https://github.com/Hitachi-CTI-Call-For-Code-COVID-19-Team/risk-calculator.git).
 
 ## Deploying the Risk Notifier from the CLI
 
